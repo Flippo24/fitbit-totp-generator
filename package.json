@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "f73ca13b-a74e-43d4-a2a3-1a2d06bc1c9a",
+    "appType": "app",
+    "appDisplayName": "TOTP Generator",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "TOTP Generator"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.0"
+  }
+}
