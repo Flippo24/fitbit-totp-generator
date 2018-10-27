@@ -3,3 +3,4 @@ yarn_lock
 .DS_Store
 tsconfig.json
 yarn.lock
+build
