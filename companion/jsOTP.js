@@ -52,7 +52,6 @@ import {jsSHA} from './sha_dev.js'
       var epoch, hmac, key, offset, otp, shaObj, time;
       key = secret;
       epoch = Math.round(now / 1000.0);
-      console.log(epoch);
       time = this.leftpad(this.dec2hex(Math.floor(epoch / this.expiry)), 16, "0");
       shaObj = new jsSHA("SHA-1", "HEX");
       shaObj.setHMACKey(key, "HEX");
